@@ -37,6 +37,7 @@ Follow these steps to restore the data volume on the new host:
 #### Starting OpenVAS Container on New Host
 
 Finally, you can start the OpenVAS container on your new host using the following command:
+
 `docker run -d --name openvas_on_onprem -e PASSWORD=admin -e USERNAME=admin -e RELAYHOST=172.17.0.1 -e SMTPPORT=25 -e QUIET=false -e NEWDB=false -e SKIPSYNC=true -e RESTORE=false -e DEBUG=false -e HTTPS=false -p 8080:9392 -v /openvas/openvas_data:/data openvas_new_image_name`
 
 Make sure to adjust the image name and any environment variables as needed.
