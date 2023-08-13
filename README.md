@@ -1,4 +1,4 @@
-##  Migrating OpenVAS: From Docker Containers to a New Host Migrating OpenVAS: From Docker Containers to a New Host
+##   Migrating OpenVAS: From Docker Containers to a New Host
 
 In today's rapidly evolving tech landscape, the ability to migrate applications and services seamlessly across different environments is a skill that's more valuable than ever. I recently encountered a challenge that demanded just that: moving an OpenVAS installation from an Azure deployed Docker container to a new host with restrictive firewall settings. Here's how I tackled it, and the insights I gained along the way.
 
