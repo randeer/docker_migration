@@ -4,6 +4,7 @@ If you're looking to migrate an OpenVAS container and its associated data volume
 
 #### Creating Snapshot of Container's Filesystem
 To capture the current state of your OpenVAS container, you can use the **docker export** command:
+
 `docker export -o openvas_snapshot.tar openvas_on_azure`
 
 #### Creating Snapshot of Data Volume
